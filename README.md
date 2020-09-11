@@ -10,8 +10,13 @@
 
 This panel dispays data as a colored svg using a customizable threshold. Compatible with Grafana 7.0+
 
+### Dashboard
+
 ![Screenshot](docs/svg-screenshot-1.png?raw=true "Screenshot")
 
+### Parameters
+
+![Screenshot](docs/svg-screenshot-2.png?raw=true "Screenshot")
 
 ## Getting started
 1. Install dependencies

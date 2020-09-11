@@ -8,7 +8,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/1dee2585eb412f913cbb/maintainability)](https://codeclimate.com/github/grafana/simple-react-panel/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/1dee2585eb412f913cbb/test_coverage)](https://codeclimate.com/github/grafana/simple-react-panel/test_coverage) -->
 
-This template is a starting point for building Grafana Panel Plugins in Grafana 7.0+
+This panel dispays data as a colore svg using a customizable threshold. Compatible with Grafana 7.0+
+
+![Screenshot](docs/svg-screenshot-1.png?raw=true "Screenshot")
 
 
 ## Getting started

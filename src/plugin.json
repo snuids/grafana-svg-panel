@@ -1,0 +1,36 @@
+{
+  "type": "panel",
+  "name": "grafana-svg-panel",
+  "id": "snuids-grafana-svg-panel",
+  "info": {
+    "description": "A panel that displays values as colored svg images",
+    "author": {
+      "name": "Arnaud Marchand",
+      "url": ""
+    },
+    "keywords": [
+      "svg panel"
+    ],
+    "logos": {
+      "small": "img/svg-panel.png",
+      "large": "img/svg-panel.png"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-react-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.0.x",
+    "plugins": []
+  }
+}

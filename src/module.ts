@@ -53,6 +53,18 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).setPanelOption
       description: 'Description of the panel',
       defaultValue: 'My beautiful panel',
     })
+    .addTextInput({
+      path: 'addLinks',
+      name: 'Add Links',
+      description: 'Use $series_name to resolve series name in links',
+      defaultValue: '',
+    })
+    .addBooleanSwitch({
+      path: 'openInNextTab',
+      name: '',
+      description: 'Open in next tab',
+      defaultValue: false,
+    })
     .addBooleanSwitch({
       path: 'showSeriesValue',
       name: 'Show series value',

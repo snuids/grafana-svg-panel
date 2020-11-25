@@ -13,4 +13,6 @@ export interface SimpleOptions {
   seriesCountSize: SeriesSize;
   valuecolor: string;
   units: string;
+  openInNextTab: boolean;
+  addLinks: string;
 }

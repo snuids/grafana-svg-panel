@@ -1,7 +1,7 @@
 {
   "type": "panel",
-  "name": "grafana-svg-panel",
-  "id": "snuids-grafana-svg-panel",
+  "name": "snuids-svg-panel",
+  "id": "snuids-svg-panel",
   "info": {
     "description": "A panel that displays values as colored svg images",
     "author": {

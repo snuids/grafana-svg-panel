@@ -1,12 +1,12 @@
 {
   "type": "panel",
-  "name": "snuids-svg-panel",
+  "name": "Colored SVG Panel",
   "id": "snuids-svg-panel",
   "info": {
     "description": "A panel that displays values as colored svg images",
     "author": {
       "name": "Arnaud Marchand",
-      "url": ""
+      "url": "https://github.com/snuids/grafana-svg-panel"
     },
     "keywords": [
       "svg panel"
@@ -25,12 +25,22 @@
         "url": "https://github.com/snuids/grafana-svg-panel/blob/master/LICENSE"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Showcase Dashboard",
+        "path": "img/svg-screenshot-1.png"
+      },
+      {
+        "name": "Showcase Details",
+        "path": "img/svg-screenshot-2.png"
+      }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
   "dependencies": {
     "grafanaVersion": "7.0.x",
+    "grafanaDependency": ">=7.0.0",
     "plugins": []
   }
 }
